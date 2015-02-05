@@ -1,5 +1,5 @@
 $(document).ready( function () {
-	console.log('Wolfgangrleonh@gmail.com  (754) 204 -1487');
+	console.log('Wleonproduction@gmail.com  Miami Florida');
 
 	//SCRIPT ADD ITEM 
 	$('.add-item, .add-qty').keydown(function(e) {
@@ -9,9 +9,8 @@ $(document).ready( function () {
 			var listqty = $('.add-qty').val();
 			$('.clear').show();
 			$('.item').show();
-			$('.item .name').html(listitem);
-			$('.item .quantity').html(listqty); 
-			
+			$('.items item').prepend($('.item .name').html(listitem) + $('.item .quantity').html(listqty)); 
+			//$('.item .name').html(listitem) + $('.item .quantity').html(listqty)
 		} // END SCRIPT ADD-ITEM & ADD-QTY
 	});
 
@@ -26,10 +25,16 @@ $(document).ready( function () {
 	});
 	// END CLICK ON ITEM
 
-	//UNCLICKED ITEM
-	$('.item').unclick();
-	//END CLICK ITEM
+	//UNCLICKED ON CLICKED ITEM
+	
+	//END ON UNCLIKED ITEM
 
+	// CLEAR BUTTON
+	$('.clear').click(function() {
+		$('.item').detach();
+		$('.clear').hide();
+	});
+	// END OF CLEAR BUTTON
 
 
 

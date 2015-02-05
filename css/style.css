@@ -84,6 +84,7 @@ h1,h4,h3,p,span,button,li,input {
 
 .item-adder label {
 	position: relative;
+	font-weight: 600;
 }
 
 .item-adder label .add-item {
@@ -179,7 +180,7 @@ h1,h4,h3,p,span,button,li,input {
 																	/* START OF FOOTER */ 
 
 #contact {
-	background-color:  #00B4DF;
+	background-color:  #495E5A;
 	padding: 2rem;
 	-webkit-box-shadow:  0px 3px 25px #000; /* Safari & Chrome */
 	-moz-box-shadow:   0px 3px 25px #000; /* Firefox */

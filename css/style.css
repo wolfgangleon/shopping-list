@@ -42,7 +42,7 @@ table {
 	border-spacing: 0;
 }
 
-h1,h4,h3,p,span,button,li {
+h1,h4,h3,p,span,button,li,input {
 	font-family: 'poiret one' cursive;
 }
 
@@ -91,6 +91,10 @@ h1,h4,h3,p,span,button,li {
 	border:0;
 	height: 3rem;
 	width: 27rem;
+	font-size: 2rem;
+	text-align: center;
+	text-transform: capitalize;
+
 }
 
 .item-adder label .add-qty {
@@ -99,6 +103,8 @@ h1,h4,h3,p,span,button,li {
 	border-radius: 15px;
 	border:0;
 	margin:0 0 0 1rem;
+	text-align: center;
+	font-size: 2rem;
 }
 
 .item-adder label span{
@@ -128,6 +134,7 @@ h1,h4,h3,p,span,button,li {
 
 .item span {
 	font-size: 2rem;
+	text-transform: capitalize;
 }
 
 .item .quantity {

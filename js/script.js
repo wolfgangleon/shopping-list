@@ -9,10 +9,14 @@ $(document).ready( function () {
 			var listqty = $('.add-qty').val();
 			$('.clear').show();
 			$('.item').show();
-			$('.items item').prepend($('.item .name').html(listitem) + $('.item .quantity').html(listqty)); 
+			$('.item .name').html(listitem) 
+			$('.item .quantity').html(listqty); 
+			$('.item').val(listitem + listqty)
+			$('.items').prepend($('.item'));
+
 			//$('.item .name').html(listitem) + $('.item .quantity').html(listqty)
-		} // END SCRIPT ADD-ITEM & ADD-QTY
-	});
+		} 
+	});// END SCRIPT ADD-ITEM & ADD-QTY
 
 	// ClICK ON ITEM
 	$('.item').click( function(){
@@ -31,7 +35,7 @@ $(document).ready( function () {
 
 	// CLEAR BUTTON
 	$('.clear').click(function() {
-		$('.item').detach();
+		$('.items li').detach();
 		$('.clear').hide();
 	});
 	// END OF CLEAR BUTTON

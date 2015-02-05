@@ -118,6 +118,7 @@ h1,h4,h3,p,span,button,li,input {
 .items {
 	background-color: rgb(177,255,117);
 	padding: 2rem;
+
 }				
 
 .item {
@@ -126,6 +127,7 @@ h1,h4,h3,p,span,button,li,input {
 	position: relative;
 	padding: 0.5rem;
 	margin: 2rem 30%;
+	display: none;
 }				
 
 .item:hover{
@@ -141,15 +143,6 @@ h1,h4,h3,p,span,button,li,input {
 	margin: 0 0 0 5%;
 }
 
- .clicked:hover {
-	-webkit-box-shadow:   5px 5px 3px #000; /* Safari & Chrome */
-	-moz-box-shadow:   5px 5px 3px #000; /* Firefox */
-	-o-box-shadow:   5px 5px 3px #000; /* Opera */
- 	box-shadow: 5px 5px 3px #000;	
- 	margin: -0.5% 31% 1% 29%;
-	background-color:#61F075;
-
-}
 
 .item .controls {
 	text-align: right;
@@ -165,11 +158,12 @@ h1,h4,h3,p,span,button,li,input {
 	border:0;	
 	position: relative;
 	height: 49px;
-	width: 49px;
-	margin:0 0 0 66.3%;
+	width: 65px;
+	margin:0 0 0 65.3%;
 	background-color: rgba(255,46,25,0.8);
 	text-transform: uppercase;
 	font-weight: 600;
+	display: none;
 }
 
 .items .clear:hover {
@@ -178,7 +172,7 @@ h1,h4,h3,p,span,button,li,input {
 	-moz-box-shadow:   5px 5px 3px #000; /* Firefox */
 	-o-box-shadow:   5px 5px 3px #000; /* Opera */
  	box-shadow: 5px 5px 3px #000;
-	margin: -0.5% 0 0 65.8%;
+	margin: -0.5% 0 0 64.8%;
 }
 
 																	/* END OF ITEM */

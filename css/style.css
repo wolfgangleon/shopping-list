@@ -1,0 +1,200 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1,h4,h3,p,span,button,li {
+	font-family: 'poiret one' cursive;
+}
+
+												/* START MASTHEAD */
+
+#masthead {
+	padding: 5rem;
+	background-color: rgb(177,255,117);
+}
+
+.masthead-title {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.masthead-title h1 {
+	font-size: 5rem;
+	text-transform: uppercase;
+}
+
+.masthead-title h4 {
+	font-size: 1.4rem;
+	margin-left:27% ;
+	line-height:1rem;
+}
+
+												/* END MASTHEAD*/ 
+											 							/*ITEM */
+
+.item-adder {
+	background-color: #BAED00;
+	padding:5rem;
+	-webkit-box-shadow:  0px 3px 25px #000; /* Safari & Chrome */
+	-moz-box-shadow:  0px 3px 25px #000; /* Firefox */
+	-o-box-shadow:  0px 3px 25px #000; /* Opera */
+ 	box-shadow: 0px 3px 25px #000;
+ 	text-align: center;
+}
+
+.item-adder label {
+	position: relative;
+}
+
+.item-adder label .add-item {
+	border-radius: 15px;
+	border:0;
+	height: 3rem;
+	width: 27rem;
+}
+
+.item-adder label .add-qty {
+	height: 3rem;
+	width: 3rem;
+	border-radius: 15px;
+	border:0;
+	margin:0 0 0 1rem;
+}
+
+.item-adder label span{
+	position: absolute;
+	margin: -3.5rem 0 0 0;
+	color: white;
+	font-size: 3rem;
+}
+
+																		/* END ITEM */
+.items {
+	background-color: rgb(177,255,117);
+	padding: 2rem;
+}				
+
+.item {
+	background-color: #ffffff;
+	border-radius: 15px;
+	position: relative;
+	padding: 0.5rem;
+	margin: 2rem 30%;
+}				
+
+.item:hover{
+	cursor: pointer;
+}
+
+.item span {
+	font-size: 2rem;
+}
+
+.item .quantity {
+	margin: 0 0 0 5%;
+}
+
+ .clicked:hover {
+	-webkit-box-shadow:   5px 5px 3px #000; /* Safari & Chrome */
+	-moz-box-shadow:   5px 5px 3px #000; /* Firefox */
+	-o-box-shadow:   5px 5px 3px #000; /* Opera */
+ 	box-shadow: 5px 5px 3px #000;	
+ 	margin: -0.5% 31% 1% 29%;
+	background-color:#61F075;
+
+}
+
+.item .controls {
+	text-align: right;
+}
+.item .controls .delete {
+	position: absolute;
+	margin: -5% 0 0 -5%;
+	height: 1.5rem;
+}
+
+.items .clear {
+	border-radius: 15px;
+	border:0;	
+	position: relative;
+	height: 49px;
+	width: 49px;
+	margin:0 0 0 66.3%;
+	background-color: rgba(255,46,25,0.8);
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.items .clear:hover {
+	cursor: pointer;
+	-webkit-box-shadow:   5px 5px 3px #000; /* Safari & Chrome */
+	-moz-box-shadow:   5px 5px 3px #000; /* Firefox */
+	-o-box-shadow:   5px 5px 3px #000; /* Opera */
+ 	box-shadow: 5px 5px 3px #000;
+	margin: -0.5% 0 0 65.8%;
+}
+
+																	/* END OF ITEM */
+																	/* START OF FOOTER */ 
+
+#contact {
+	background-color:  #00B4DF;
+	padding: 2rem;
+	-webkit-box-shadow:  0px 3px 25px #000; /* Safari & Chrome */
+	-moz-box-shadow:   0px 3px 25px #000; /* Firefox */
+	-o-box-shadow:  0px 3px 25px #000; /* Opera */
+ 	box-shadow: 0px 3px 25px #000;
+ 	text-align: center;
+ 	font-size: 1.2rem;
+ 	font-weight: 600;
+}
+
+.contact-list {
+	padding:1rem;
+}
+
+.information .contact-list li {
+	display: inline;
+}
+																	
+

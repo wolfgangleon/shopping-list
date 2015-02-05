@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Shopping list</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+
+<!--start of header -->
+	<header id='masthead'>
+		<nav></nav>
+
+		<div class="masthead-title">
+			<h1>shopping list</h1>
+			<h4>by Wolfgang Leon</h4>
+		</div>
+	</header>
+<!--end of header -->
+
+	<form class="item-adder">
+		<label>
+			<span>Item</span>
+			<input type="text" class="add-item">
+		</label>
+		
+		<label>
+			<span>Qty</span>
+			<input type="text" class="add-qty">
+		</label>
+
+	</form>
+
+	<ol class="items">
+		<li class="item">
+			<span class="name">Banana</span>
+			<span class="quantity">2</span>
+			<div class="controls">
+				<img class="delete" src="images/x.png" alt="">
+			</div>
+		</li>
+		
+		<li class="item clicked" >
+				<span class="name">Cake</span>
+				<span class="quantity">2</span>
+				<div class="controls">
+					<img class="delete" src="images/x.png" alt="">
+				</div>
+		</li>
+	
+		<li class="item">
+			<span class="name">Cheese</span>
+			<span class="quantity">2</span>
+			<div class="controls">
+				<img class="delete" src="images/x.png" alt="">
+			</div>
+		</li>
+
+		<button class="clear">clear</button>
+
+	</ol>
+
+
+<!-- start of footer-->
+<footer id='contact'>
+	<div class="information">
+		<h3>Contact</h3>
+		<ul class="contact-list">
+			<li class="likedin">linkedin</li>
+			<li class="github">github</li>
+			<li class="twitter">twitter</li>
+			<li class="instagram">instagram</li>
+		</ul>
+		<p>Wolfgang leon - Web developer</p>
+	</div>
+</footer>
+</body>
+</html>

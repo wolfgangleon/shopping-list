@@ -150,7 +150,7 @@ h1,h4,h3,p,span,button,li,input {
 }
 .item .controls .delete {
 	position: absolute;
-	margin: -5% 0 0 -5%;
+	margin: -5.5% 0 0 -5.5%;
 	height: 1.5rem;
 }
 

@@ -9,23 +9,21 @@ $(document).ready( function () {
 			var listqty = $('.add-qty').val();
 			$('.clear').show();
 			$('.item').show();
-			$('.item .name').html(listitem) 
+			$('.item .name').val(listitem) 
 			$('.item .quantity').html(listqty); 
-			$('.item').val(listitem + listqty)
-			
-			//$('.item .name').html(listitem) + $('.item .quantity').html(listqty)
+			$('.items').prepend('<li class="item"></li>'); 
 		} 
 	});// END SCRIPT ADD-ITEM & ADD-QTY
 
 	// ClICK ON ITEM
-	$('.item').click(function() {
-    	$( this ).toggleClass( 'clicked' );
+	$('.item').on({click: function() {
+    	$( this ).toggleClass( 'clicked' );}
 	});
 	// END CLICK ON ITEM
 
 	// CLEAR BUTTON
 	$('.clear').click(function() {
-		$('.items li').detach();
+		$('.item').detach();
 		$('.clear').hide();
 	});
 	// END OF CLEAR BUTTON

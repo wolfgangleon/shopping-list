@@ -128,7 +128,6 @@ h1,h4,h3,p,span,button,li,input {
 	position: relative;
 	padding: 0.5rem;
 	margin: 2rem 30%;
-	display: none;
 }				
 
 .item:hover{

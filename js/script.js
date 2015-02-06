@@ -20,9 +20,14 @@ $(document).ready( function () {
 		} 
 	});// END SCRIPT ADD-ITEM & ADD-QTY
 
+	//DELETE SPECIFIC ITEM
+	$('.items').on('click', '.delete',function(){
+		$(this).parent().parent().remove();
+	}); //END DELETE SCPCIFIC ITEM
+
 	// ClICK ON ITEM
-	$('.items .item').click( function() {
-    	$( this ).toggleClass( 'clicked' );
+	$('.items').on( "click", ".item", function() {
+			$( this ).toggleClass( 'clicked' );
 	});
 	// END CLICK ON ITEM
 

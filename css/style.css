@@ -135,6 +135,15 @@ h1,h4,h3,p,span,button,li,input {
 	cursor: pointer;
 }
 
+.clicked {
+	-webkit-box-shadow:  5px 5px 3px #000; /* Safari & Chrome */
+	-moz-box-shadow:   5px 5px 3px #000; /* Firefox */
+	-o-box-shadow:  5px 5px 3px #000; /* Opera */
+ 	box-shadow: 5px 5px 3px #000;
+ 	margin:-0.5% 31% 3% 29%;
+ 	background-color: #61F075;
+}
+
 .item span {
 	font-size: 2rem;
 	text-transform: capitalize;

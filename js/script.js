@@ -34,8 +34,11 @@ $(document).ready( function () {
 
 	// CLEAR BUTTON
 	$('.clear').click(function() {
-		$('.item').remove();
-		$('.clear').hide();
+		var answer = prompt('type YES if you want to delete the list')
+			if (answer == 'yes'){
+				$('.item').remove();
+				$('.clear').hide();
+			}
 	});
 	// END OF CLEAR BUTTON
 

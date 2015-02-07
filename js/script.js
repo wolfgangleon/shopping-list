@@ -10,7 +10,8 @@ $(document).ready( function () {
 			if ( $('.add-item').val()=='' ) {	
 				alert('Please add an item first');
 				$('.add-item, .add-qty').val('');
-				return false;};
+				return false;
+			};
 
 			var  listname = $('.add-item').val();
 			var  listqty = $('.add-qty').val();
@@ -27,13 +28,13 @@ $(document).ready( function () {
 
 	// ClICK ON ITEM
 	$('.items').on( "click", ".item", function() {
-			$( this ).toggleClass( 'clicked' );
+		$( this ).toggleClass( 'clicked' );
 	});
 	// END CLICK ON ITEM
 
 	// CLEAR BUTTON
 	$('.clear').click(function() {
-		$('.item').detach();
+		$('.item').remove();
 		$('.clear').hide();
 	});
 	// END OF CLEAR BUTTON

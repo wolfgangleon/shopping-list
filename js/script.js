@@ -34,7 +34,7 @@ $(document).ready( function () {
 
 	// CLEAR BUTTON
 	$('.clear').click(function() {
-		var answer = prompt('type YES if you want to delete the list')
+		var answer = prompt('Type "yes" if you want to delete the list')
 			if (answer == 'yes'){
 				$('.item').remove();
 				$('.clear').hide();
